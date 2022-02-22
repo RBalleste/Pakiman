@@ -4,9 +4,9 @@ imagenes["Pokacho"] = "pollo.png";
 imagenes["Tocinauro"] = "cerdo.png";
 
 var coleccion =[];
-coleccion.push(new Pakiman("Cauchin", 100, 30));
-coleccion.push(new Pakiman("Pokacho", 80, 50));
-coleccion.push(new Pakiman("Tocinauro", 120, 40));
+coleccion.push(new Pakiman("Cauchin", 45,49,49,65,65,45));
+coleccion.push(new Pakiman("Pokacho", 39,52,43,60,50,65));
+coleccion.push(new Pakiman("Tocinauro", 44,48,65,50,64,43));
 
 for(var p of coleccion)
 {
